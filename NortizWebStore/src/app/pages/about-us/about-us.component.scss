@@ -1,0 +1,34 @@
+.bgColor {
+  background-color: rgb(37, 36, 36);
+}
+
+.txtRecolor {
+  color: white;
+  background-color: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+}
+
+.cardAlign {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.pTxt {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+}

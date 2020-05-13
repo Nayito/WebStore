@@ -1,0 +1,68 @@
+<div class="container-fluid bgColor">
+  <p-carousel [value]="testPhone" [numVisible]="3" [numScroll]="1" [autoplayInterval]="9000" [circular]="true">
+    <ng-template let-testPhone pTemplate="item">
+      <div class="carMove">
+        <img src="{{testPhone.pImg}}" class="imgMove" width="400" height="300vh" alt="Electronics">
+        <p class="txtColor">
+          {{testPhone.pName}}
+        </p>
+        <p class="txtColor">
+          {{testPhone.pDesc}}
+        </p>
+        <p class="card-subtitle text-muted text-center">
+          {{testPhone.additionalInfo}}
+        </p>
+        <a routerLink="/{{testPhone.pNameURL}}/{{testPhone.id}}" class="card-link">
+          {{testPhone.price}}
+        </a>
+        <button (click)="addToCart(testPhone)" class="btn btn-primary">+</button>
+      </div>
+    </ng-template>
+  </p-carousel>
+</div>
+
+<div class="container-fluid bgColor">
+  <p-carousel [value]="testJewl" [numVisible]="3" [numScroll]="1" [autoplayInterval]="9000" [circular]="true">
+    <ng-template let-testJewl pTemplate="item">
+      <div class="carMove">
+        <img src="{{testJewl.pImg}}" class="imgMove" width="400" height="300vh" alt="Jewelry">
+        <p class="txtColor">
+          {{testJewl.pName}}
+        </p>
+        <p class="txtColor">
+          {{testJewl.pDesc}}
+        </p>
+        <p class="card-subtitle text-muted text-center">
+          {{testJewl.additionalInfo}}
+        </p>
+        <a routerLink="/{{testJewl.pNameURL}}/{{testJewl.id}}" class="card-link">
+          {{testJewl.price}}
+        </a>
+        <button (click)="addToCart(testJewl)" class="btn btn-primary">+</button>
+      </div>
+    </ng-template>
+  </p-carousel>
+</div>
+
+<div class="container-fluid bgColor">
+  <p-carousel [value]="testCloth" [numVisible]="3" [numScroll]="1" [autoplayInterval]="9000" [circular]="true">
+    <ng-template let-testCloth pTemplate="item">
+      <div class="carMove">
+        <img src="{{testCloth.pImg}}" class="imgMove" width="400" height="300vh" alt="CLothing">
+        <p class="txtColor">
+          {{testCloth.pName}}
+        </p>
+        <p class="txtColor">
+          {{testCloth.pDesc}}
+        </p>
+        <p class="card-subtitle text-muted text-center">
+          {{testCloth.additionalInfo}}
+        </p>
+        <a routerLink="/{{testCloth.pNameURL}}/{{testCloth.id}}" class="card-link">
+          {{testCloth.price}}
+        </a>
+        <button (click)="addToCart(testCloth)" class="btn btn-primary">+</button>
+      </div>
+    </ng-template>
+  </p-carousel>
+</div>

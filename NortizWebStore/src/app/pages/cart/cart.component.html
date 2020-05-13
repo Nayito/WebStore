@@ -1,0 +1,30 @@
+<div class="container-fluid cHeight bgColor">
+  <div class="row">
+    <div class="col">
+      <div class="container cardAlign">
+        <img src="../../../assets/img/Rectangle 39.png" class="img-fluid" width="285">
+        <div class="centered">Cart</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="container" *ngIf="showList">
+        <div class="shopping-cart">
+          <div *ngIf="cartItems.length == 0" class="py-2">
+            No items in your cart!
+          </div>
+          <ul class="shopping-cart-items">
+            <li *ngFor="let item of cartItems; let i = index">
+              <span class="item-image">{{item.pImg}}</span>
+              <span class="item-name">{{item.pName}}</span>
+              <span class="item-price">${{item.price}}</span>
+              <span class="item-quantity">Quantity: {{item.quantity}}</span>
+              <a class="item-remove text-danger" (click)="removeFromCart(item, i)"> Remove </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

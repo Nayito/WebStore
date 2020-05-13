@@ -1,0 +1,76 @@
+.bgColor {
+  background-color: rgb(37, 36, 36);
+}
+
+.bg2Color {
+  background-color: black;
+}
+
+.bg3Color {
+  background-color: rgb(105, 99, 99);
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.cHeight {
+  min-height: 539px;
+  height: auto !important;
+  height: 501px;
+}
+
+.rScoot {
+  margin-top: 1em;
+}
+
+.rScoot2 {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+}
+
+.infoMove {
+  margin-top: 2em;
+}
+
+.tColor {
+  color: white;
+}
+
+.tMove {
+  display: flex;
+  justify-content: center;
+}
+
+.linkTxt {
+  color: white;
+}
+
+.titleMove {
+  margin-top: .5em;
+}
+
+.sideTxt {
+  color: white;
+  border-color: rgb(48, 45, 45);
+  background-color: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.sideTxt2 {
+  color: white;
+  border-color: rgb(48, 45, 45);
+  background-color: black;
+  border-style: solid;
+  padding-left: 2.2em;
+}
+
+.sideTxt:hover {
+  background-color: rgb(32, 31, 31);
+}
+
+.sideTxt2:hover {
+  background-color: rgb(32, 31, 31);
+}

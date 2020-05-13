@@ -1,0 +1,43 @@
+.bgColor {
+  background-color: rgb(37, 36, 36);
+  margin: 0;
+  padding: 0;
+}
+
+.carMove {
+  margin-top: .5em;
+  margin-left: .3em;
+  background-color: black;
+  border-style: solid;
+  border-color: rgb(70, 64, 64);
+}
+
+.imgMove {
+  margin-left: .2em;
+  margin-top: .2em;
+}
+
+.titleColor {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.txtColor {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.storeBtn {
+  background-color: rgb(24, 24, 170);
+  border-color: rgba(15, 137, 194, 0.932);
+  border-style: solid;
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.storeBtn:hover {
+  background-color: rgb(36, 13, 97);
+}

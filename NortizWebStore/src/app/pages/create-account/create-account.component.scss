@@ -1,0 +1,74 @@
+.rStretch {
+  margin: 0;
+  padding: 0;
+}
+
+.cHeight {
+  min-height: 539px;
+  height: auto !important;
+  height: 501px;
+}
+
+.fBg {
+  background-color: black;
+}
+
+.fArrange {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.bgColor {
+  background-color: rgb(37, 36, 36);
+}
+
+.btnMove {
+  margin-bottom: 1em;
+}
+
+.btnColor{
+  color:white;
+}
+
+.trueCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txtColor {
+  color: white;
+  font-size: 14px;
+}
+
+.txtRecolor {
+  color: white;
+}
+
+.aRecolor:hover {
+  color: lightblue;
+}
+
+.pRecolor {
+  color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pRecolor:hover {
+  color: rgb(17, 123, 194);
+}
+
+.txtArrange {
+  display: flex;
+  justify-content: center;
+}
+
+.moveCenter {
+  background-color: black;
+  border-style: solid;
+  border-color: rgb(17, 17, 17);
+  border-width: 5px;
+  margin-top: 6em;
+  margin-bottom: .5em;
+}
